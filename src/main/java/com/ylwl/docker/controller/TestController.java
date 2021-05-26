@@ -8,6 +8,7 @@ public class TestController {
     @GetMapping("/test")
     public String getResult(){
         int a = 1 << 2;
+        int b =a+1;
 
         return "this is a test data:"+ a;
     }
