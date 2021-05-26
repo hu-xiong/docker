@@ -9,8 +9,7 @@ public class TestController {
     public String getResult(){
         int a = 1 << 2;
         int b =a+1;
-        System.out.println(b);
-
+        
         return "this is a test data:"+ a;
     }
 }
