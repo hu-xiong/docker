@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/test")
     public String getResult(){
-        return "this is a test data";
+        int a = 1 << 2;
+        return "this is a test data:"+ a;
     }
 }
